@@ -1,0 +1,30 @@
+
+
+
+
+
+
+
+/* ---------------FOR ALL-------------------- */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html {
+    margin-top: 50px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+/* ---------------RESPONSIVE SECTION-------------------- */
+@media screen and (min-width:600px) {}
+
+@media screen and (min-width:1024px) {}
