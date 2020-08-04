@@ -13,20 +13,144 @@
     <script src="https://kit.fontawesome.com/0afa6dda44.js" crossorigin="anonymous"></script>
 
 </head>
+
 <body>
+    <div class="wrap container">
+        <!-- ---------------HEADER-------------------- -->
+        <header class="header">
+            <h1 class="text--center">MY BLOG</h1>
+            <p class="text--center">Welcome to the blog of <span class="tag-text">unknown</span></p>
+        </header>
 
-<!-- ---------------HEADER-------------------- -->
-<header></header>
+        <!-- ---------------MAIN-------------------- -->
+        <section class="col-s-12 col-main margin-auto">
+            <div class="row">
+                <div class="card">
+                    <picture>
+                        <img class="img" src="img/woods.jpg" alt="woods">
+                    </picture>
+                    <div class="card__content">
+                        <h2>TITLE HEADING</h2>
+                        <h3>Title description, <span class="text-grey" datetime="2014-2-7T22:55+3:30">April 7,
+                                2014</span></h3>
+                        <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id
+                            lorem
+                            euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus
+                            sed
+                            ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae
+                            justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                        <button class="btn btn--white">READ MORE »</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture>
+                        <img class="img" src="img/bridge.jpg" alt="woods">
+                    </picture>
+                    <div class="card__content">
+                        <h2>TITLE HEADING</h2>
+                        <h3>Title description, <span class="text-grey" datetime="2014-2-7T22:55+3:30">April 7,
+                                2014</span></h3>
+                        <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id
+                            lorem
+                            euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus
+                            sed
+                            ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae
+                            justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                        <button class="btn btn--white">READ MORE »</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<!-- ---------------MAIN-------------------- -->
-<main></main>
+        <!-- ---------------ASIDE-------------------- -->
+        <aside class="aside">
+            <div class="row">
+                <section class="myName">
+                    <div class="col-s-12 col-side margin-auto">
+                        <div class="card">
+                            <picture>
+                                <img class="img" src="img/avatar_g.jpg" alt="woods">
+                            </picture>
+                            <div class="card__content">
+                                <h2>My Name</h2>
+                                <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love
+                                    and a
+                                    interest of lorem ipsum and mauris neque quam blog. I want to share my world with
+                                    you.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="col-s-12 col-side margin-auto">
+                    <section class="Popular-Posts">
+                        <div class="card">
+                            <ul>
+                                <header class="card__header">
+                                    <h2>Popular Posts</h2>
+                                </header>
+                                <li>
+                                    <div class="card__content clearfix">
+                                        <img class="pop__img float-l" src="img/workshop.jpg" alt="workshop">
+                                        <div class="over-hidden">
+                                            <h3>Lorem</h3>
+                                            <p>Sed mattis nunc</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="card__content clearfix">
+                                        <img class="pop__img float-l" src="img/workshop.jpg" alt="workshop">
+                                        <div class="over-hidden">
+                                            <h3>Lorem</h3>
+                                            <p>Sed mattis nunc</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="card__content clearfix">
+                                        <img class="pop__img float-l" src="img/workshop.jpg" alt="workshop">
+                                        <div class="over-hidden">
+                                            <h3>Lorem</h3>
+                                            <p>Sed mattis nunc</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="tags">
+                        <div class="card">
+                            <header class="card__header">
+                                <h2>Tags</h2>
+                            </header>
+                            <div class="card__content ">
+                                <span class="tag-text margin__b">Travel</span>
+                                <span class="tag-text tag-text--light margin__b">New York</span>
+                                <span class="tag-text tag-text--light margin__b">London</span>
+                                <span class="tag-text tag-text--light margin__b">ikea</span>
+                                <span class="tag-text tag-text--light margin__b">NORWAY</span>
+                                <span class="tag-text tag-text--light margin__b">DIY</span>
+                                <span class="tag-text tag-text--light margin__b">Family</span>
+                                <span class="tag-text tag-text--light margin__b">Clothing</span>
+                                <span class="tag-text tag-text--light margin__b">Sports</span>
+                                <span class="tag-text tag-text--light margin__b">Games</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <!--End-class-Container-->
 
-<!-- ---------------ASIDE-------------------- -->
-<aside></aside>
-
-<!-- ---------------FOOTER-------------------- -->
-<footer></footer>
-
-
+    <!-- ---------------FOOTER-------------------- -->
+    <footer class="footer row">
+        <div class="container padding--top-40">
+            <button class="btn btn--black btn--dis">Previous</button>
+            <button class="btn btn--black" disabled>Next »</button>
+            <p class="text-white">Powered by Hamidreza Haji</p>
+        </div>
+    </footer>
 </body>
 </html>
